@@ -54,13 +54,21 @@
 ### 训练参数细节
 
 per_device_train_batch_size=4,
+
 gradient_accumulation_steps=3,
+
 per_device_eval_batch_size=8,
+
 eval_steps=100,
+
 save_steps=100,
+
 num_train_epochs=6,
+
 learning_rate=2e-5,
+
 weight_decay=0.01,
+
 fp16=True,  # 混合精度训练
 
 
